@@ -10,7 +10,7 @@ The repository contains the following files:
 
 1. `README.md` --> this file
 1. `LICENSE` --> the license for the BIDS specification and all files in this repository
-1. `BIDS_specification.pdf` --> the PDF version of the current (stable) release of the BIDS specification
+1. `bids-spec.pdf` --> the PDF version of the current (stable) release of the BIDS specification
 1. `CITATION.cff` --> a file containing the metadata about the BIDS specification
 
 The BIDS specification is developed in this repository: https://github.com/bids-standard/bids-specification
