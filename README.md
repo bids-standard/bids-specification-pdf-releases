@@ -1,10 +1,10 @@
-**ToDo -- Insert Zenodo badge**
+[![DOI](https://zenodo.org/badge/718241078.svg)](https://zenodo.org/doi/10.5281/zenodo.10175845)
 
 # BIDS specification PDF releases
 
 This repository exists to regularly release PDF versions of the BIDS specification.
 
-The PDFs are accessible from the Zenodo record: **ToDo -- Insert Zenodo record**
+The PDFs are accessible from the Zenodo record: https://zenodo.org/doi/10.5281/zenodo.10175845
 
 The repository contains the following files:
 
