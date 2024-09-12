@@ -2,20 +2,30 @@
 
 cff-version: 1.2.0
 
-title: bids-specification
+title: The Brain Imaging Data Structure (BIDS) Specification
 
-abstract: The Brain Imaging Data Structure (BIDS) is a simple and intuitive way to
-  organize and describe data.
+abstract: >-
+  The Brain Imaging Data Structure (BIDS) is a simple and intuitive way to organize
+  and describe data.
 
-version: v1.9.0
+version: 1.10.0
 
 license: CC-BY-4.0
 
 repository-code: https://github.com/bids-standard/bids-specification
 
-message: Please cite it as below.
+message: >-
+  To cite the BIDS specification, please follow the instructions here:
+  https://bids-specification.rtfd.io/en/latest/introduction.html#citing-bids
+  HTML versions of the BIDS specification can be browsed following this link:
+  https://bids-specification.rtfd.io
+  PDF versions of the BIDS specification can be found in the Zenodo archives
+  listed under "identifiers" below in the present `CITATION.cff` file.
 
 identifiers:
+  - description: PDFs of the BIDS specification for versions 1.9.0 and above
+    type: doi
+    value: 10.5281/zenodo.10175845
   - description: PDFs of the BIDS specification for versions 1.0.0 to 1.8.0
     type: doi
     value: 10.5281/zenodo.3686061
@@ -133,6 +143,12 @@ authors:
     family-names: Galassi
     website: https://github.com/bendhouseart
     orcid: https://orcid.org/0000-0001-6550-4574
+  - given-names: Arianna
+    family-names: Sala
+    website: https://www.coma.uliege.be/people/arianna-sala/
+    orcid: https://orcid.org/0000-0001-8121-0891
+    affiliation: université de Liège, Belgium
+    email: arianna.sala@uliege.be
   - given-names: Ariel
     family-names: Rokem
     website: https://arokem.org/
@@ -180,6 +196,10 @@ authors:
     website: https://github.com/musicinmybrain
   - given-names: Benjamin
     family-names: Dichter
+    website: https://bendichter.com/
+    orcid: https://orcid.org/0000-0001-5725-6910
+    affiliation: CatalystNeuro
+    email: ben.dichter@catalystneuro.com
   - given-names: Benjamin
     family-names: Gagl
     orcid: https://orcid.org/0000-0002-2339-6293
@@ -863,10 +883,9 @@ authors:
     website: https://github.com/mariehbourget
   - given-names: Mark
     family-names: Mikkelsen
-    website: https://vivo.weill.cornell.edu/display/cwid-mam4041
+    website: https://mikkelsenlab.weill.cornell.edu/
     orcid: https://orcid.org/0000-0002-0349-3782
-    affiliation: Weill Cornell Medicine, Department of Radiology, New York, NY, 10021,
-      USA
+    affiliation: Weill Cornell Medicine
     email: mam4041@med.cornell.edu
   - given-names: Markus
     family-names: Morawski
@@ -984,6 +1003,11 @@ authors:
     family-names: Ramsey
   - given-names: Nicole C.
     family-names: Swann
+  - given-names: Nikita
+    family-names: Beliy
+    orcid: https://orcid.org/0009-0002-0830-3279
+    affiliation: University of Liege (Liege, Belgium)
+    email: nikita.beliy@uliege.be
   - given-names: Nima
     family-names: Bigdely Shamlo
     orcid: https://orcid.org/0000-0001-6403-892X
@@ -1068,7 +1092,8 @@ authors:
     email: Rik.Henson@mrc-cbu.cam.ac.uk
   - given-names: Robert B.
     family-names: Innis
-    website: https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/mib/molecular-imaging-branch-mib
+    website:
+      https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/clinics-and-labs/mib/molecular-imaging-branch-mib
     orcid: https://orcid.org/0000-0003-1238-7209
     affiliation: NIMH Intramural Research Program, Bethesda, MD 20850 USA, MD 20892  USA
     email: robert.innis@nih.gov
@@ -1112,6 +1137,11 @@ authors:
     website: https://github.com/samirdas
   - given-names: Samuel
     family-names: Garcia
+  - given-names: Samuel
+    family-names: Guay
+    orcid: https://orcid.org/0000-0001-6990-839X
+    affiliation: Université de Montréal, Montreal, Québec, CA
+    email: samuel.guay@umontreal.ca
   - given-names: Samuel
     family-names: Nastase
     website: https://snastase.github.io/
@@ -1303,6 +1333,10 @@ authors:
   - given-names: Vittorio
     family-names: Iacovella
     orcid: https://orcid.org/0000-0002-0853-1573
+  - given-names: Viviana
+    family-names: Siless
+    affiliation: Business School, Universidad Torcuato di Tella
+    email: viviana.siless@utdt.edu
   - given-names: Vladimir
     family-names: Litvak
     orcid: https://orcid.org/0000-0001-8535-7452
